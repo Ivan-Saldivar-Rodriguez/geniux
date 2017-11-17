@@ -1,5 +1,7 @@
 # GENIUX
 
+! (https://github.com/ivansaldivar/GENIUX/blob/master/images/logo_base3.png)
+
 Entregamos a la comunidad educacional una nueva herramienta de evaluación totalmente gratuita y basada en un modelo centrado en el progreso de la adquisición de habilidades de cada niño.
 
 
