@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title -->
+    <title>GENIUX | Plataforma educativa - powered by NativeCodex</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css" />
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/sweetalert2/sweetalert2.min.css" />
+    
+    <!-- App styles -->
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/helper.css" />
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body class="blank" onload="BusyProcess(0); ActivaLogin();">
+
+<!-- Simple splash screen-->
+    <div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>Geniux | Plataforma educativa - powered by NativeCodex</h1><p>SIMPLE, EFICIENTE y EFICAZ.</p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
+<!--[if lt IE 7]>
+<p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="color-line"></div>
+
+<div id="div_volver_ini" class="navbar-header">
+    <a onclick="VolverPortal();" class="btn btn-primary3" style="margin-left:2px;margin-top:2px;"><span id="span_button_volver">Volver al portal</span></a>
+</div>
+
+<div class="register-container" id="div_form_login_registro" style="display: none;margin-top: 0px;">
+    <div class="col-md-12" >
+        <div class="text-center m-b-md">
+            <img src="images/logo_base3.png" style="width:30%;" /><br />
+            <h3 id="span_txt_login_cab_registro">REGISTRO DE USUARIO</h3>
+            <!--<small><span style="color:#2AAB36;">Geniux</span> by COGNOX</small>-->
+        </div>
+        <div class="hpanel">
+            <div class="panel-body">
+                    <!--<form id="loginForm">-->
+                        <div class="row">
+                        <div class="form-group col-lg-12">
+                            <label><span id="span_txt_username_registro">Nombre de usuario</span></label>
+                            <input value="" id="reg_user" class="form-control" name="reg_user" type="text">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label><span id="span_txt_password_registro">Contrase&ntilde;a</span></label>
+                            <input value="" id="reg_pass" class="form-control" name="reg_pass" type="password">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label><span id="span_txt_repeat_pass_registro">Repita contrase&ntilde;a</span></label>
+                            <input value="" id="reg_pass2" class="form-control" name="reg_pass2" type="password">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label><span id="span_txt_email_registro">Dirección de correo</span></label>
+                            <input value="" id="reg_email" class="form-control" name="reg_email" type="text">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label><span id="span_txt_repeat_email_registro">Repita Dirección de correo</span></label>
+                            <input value="" id="reg_email2" class="form-control" name="reg_email2" type="text">
+                        </div>
+                        <div class="form-group col-lg-6" id="div_colegio" style="display: none;">
+                            <label><span id="span_txt_colegio_registro">Institución educativa</span></label>
+                            <input value="" id="reg_colegio" class="form-control" name="reg_colegio" type="text">
+                        </div>
+                        <div class="form-group col-lg-6" id="div_colegio_rbd" style="display: none;">
+                            <label><span id="span_txt_rbd_colegio_registro">Número registro institución</span></label>
+                            <input value="" id="reg_colegio_rbd" class="form-control" name="reg_colegio_rbd" type="text" onkeypress="return ValidaIngresoSoloNumeros(this.value, event);">
+                        </div>                            
+                        <div class="form-group col-lg-6">
+                            <label><span id="span_txt_perfil_registro">Perfil</span></label>
+                            <select class='form-control m-b' id='selPerfil_reg' onchange="DatosColegio(this);">
+                                <option value="2">TUTOR(A)</option>
+                                <option value="4">DIRECTOR(A)</option>
+                                <option value="5">JEFE(A) UTP</option>
+                                <option value="3">DOCENTE</option>
+                                <option value="6">EDUCADOR(A)</option>
+                            </select>
+                        </div>
+                        <div class="checkbox col-lg-12">
+                                <div class="icheckbox_square-green checked" style="position: relative;"><input class="i-checks" checked="" style="position: absolute; opacity: 0;" type="checkbox"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins></div>
+                                <span id="span_txt_newsletter">Suscríbete a nuestro boletín</span>
+                            </div>    
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-success" onclick="EnviaSolicitudRegistro();">Registrar</button>
+                            <button class="btn btn-default" onclick="CargaFormRegistro(2);">Cancelar</button>
+                        </div>
+                    <!--</form>-->
+            </div>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="col-md-12 text-center m-b-md">
+            <table style="margin: auto;">
+                <tr>
+                    <td><strong>GENIUX</strong> - <span id="span_year_footer_reg2"></span> </td>
+                    <td>&nbsp;<span class="cc">c</span>&nbsp;</td>
+                    <td><a href="https://cognox.org">COGNOX</a> - Powered by <a href="https://nativecodex.com"><span style="color:#2AAB36;">Native</span>Codex</a></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+</div>
+<div id="div_login_ini" class="login-container">
+    <div class="row" >
+        <div class="col-md-12">
+            <div class="text-center m-b-md">
+                <img src="images/logo_base3.png" style="width:50%;" /><br />
+                <h3 id="span_saludo_login_ingreso">POR FAVOR INGRESE</h3>
+                <small><span style="color:#2AAB36;">Geniux</span> by COGNOX</small>
+            </div>
+            <div class="hpanel">
+                <div class="panel-body">
+                        <!--<form action="#" id="loginForm">-->
+                            <div class="form-group">
+                                <label class="control-label" for="username"><span id="span_name_usuario_login">Nombre de usuario</span></label>
+                                <input type="text" placeholder="example@gmail.com" title="Por favor ingrese su nombre de usuario" required="" value="" name="username" id="username" class="form-control" onkeypress="return EvaluaLogin(this, event);" maxlength="50">
+                                <span id="span_txt_name_usuario_login" class="help-block small">Su nombre de usuario &uacute;nico para Geniux</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="password"><span id="span_pass_usuario_login">Contrase&ntilde;a</span></label>
+                                <input type="password" title="Por favor ingrese su contrase&ntilde;a" placeholder="******" required="" value="" name="password" id="password" class="form-control" onkeypress="return EvaluaLogin(this, event);" maxlength="50">
+                                <span id="span_txt_pass_usuario_login" class="help-block small">Su contrase&ntilde;a</span>
+                            </div>
+                            <!--
+                            <div class="checkbox">
+                                <input type="checkbox" class="i-checks" checked>
+                                     Recordar credenciales
+                                <p class="help-block small">(Si este es un su computador personal)</p>
+                            </div>
+                            -->
+                            <button class="btn btn-success btn-block" onclick="VerificarIngreso();"><span id="span_button_login_ingreso">Ingresar</span></button>
+                        <!--</form>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="div_footer_registro">
+        <div class="col-md-12 text-center m-b-md">
+            <span style="color:#2AAB36;cursor: pointer;" id="span_txt_link_registro" onclick="CargaFormRegistro(1);">¿NO TIENES CUENTA?, REG&Iacute;STRATE!</span>
+            <table style="margin: auto;">
+                <tr>
+                    <td><strong>GENIUX</strong> - <span id="span_year_footer_reg"></span> </td>
+                    <td>&nbsp;<span class="cc">c</span>&nbsp;</td>
+                    <td><a href="https://cognox.org">COGNOX</a> - Powered by <a href="https://nativecodex.com"><span style="color:#2AAB36;">Native</span>Codex</a></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+</div>
+<form id="frmrun" method="post">
+    <input type="hidden" id="datosusuario" name="datosusuario"/>
+    <input type="hidden" id="datosmensaje" name="datosmensaje" />
+    <input type="hidden" id="urlbalanceo" name="urlbalanceo" />
+</form>
+
+<!-- Vendor scripts -->
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="vendor/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
+<script src="vendor/iCheck/icheck.min.js"></script>
+<script src="vendor/sparkline/index.js"></script>
+<script src="vendor/sweetalert2/sweetalert2.min.js"></script>
+<!-- App scripts -->
+<script src="scripts/homer.js"></script>
+<script src="scripts/geniux.js?1968_v2"></script>
+<script src="scripts/geniux2.js?1968_v2"></script>
+<script src="scripts/geniuxn.js?1968_v2"></script>    
+<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+<form>
+    <input type="hidden" id="language_identificator" value="spa"/>
+    <input type="hidden" id="fromCall" value="login"/>
+    <input type="hidden" id="datosusuario" value=""/>
+    <input type="hidden" id="pais_x_ip" />
+    <input type="hidden" id="alpha_code2_pais_x_ip" />    
+</form>
+<script>
+    var lang = "spa";
+    var ac2 = "CL";
+    var ac1 = "Chile";
+    $(document).ready(function () {
+        lang = getParameterByName("lang");
+        if(lang=="") lang="spa";
+        
+        ac2 = getParameterByName("ac2");
+        if(ac2=="") ac2="CL";
+
+        ac1 = getParameterByName("ac1");
+        if(ac1=="") ac2="Chile";
+
+        document.getElementById("language_identificator").value=lang;
+        document.getElementById("alpha_code2_pais_x_ip").value=ac2;
+        document.getElementById('pais_x_ip').value=ac1;
+        
+        if(lang!="spa") SeleccionaLengua(lang);
+    });
+    var d= new Date();
+    document.getElementById("span_year_footer_reg").innerHTML = d.getFullYear();
+    document.getElementById("span_year_footer_reg2").innerHTML = d.getFullYear();
+    
+    function CargaFormRegistro(opc){
+        if(opc==1){
+            document.getElementById("selPerfil_reg").selectedIndex=0;
+            document.getElementById("div_colegio").style.display="none";
+            document.getElementById("div_colegio_rbd").style.display="none";            
+
+            document.getElementById("reg_user").value="";
+            document.getElementById("reg_pass").value="";
+            document.getElementById("reg_pass2").value="";
+            document.getElementById("reg_email").value="";
+            document.getElementById("reg_email2").value="";
+            document.getElementById("reg_colegio").value="";
+            document.getElementById("reg_colegio_rbd").value="";
+            
+            document.getElementById("div_form_login_registro").style.display="block";  
+            document.getElementById("div_login_ini").style.display="none";            
+        }
+        else{
+            document.getElementById("div_form_login_registro").style.display="none";  
+            document.getElementById("div_login_ini").style.display="block";                        
+        }
+    }
+    function DatosColegio(objCmbPerfil){
+        if(objCmbPerfil.value!="2"){
+            document.getElementById("div_colegio").style.display="block";
+            document.getElementById("div_colegio_rbd").style.display="block";
+        }
+        else{
+            document.getElementById("div_colegio").style.display="none";
+            document.getElementById("div_colegio_rbd").style.display="none";            
+        }
+    }
+    function EnviaSolicitudRegistro(){
+        var reg_user= document.getElementById("reg_user").value;
+        var reg_pass= document.getElementById("reg_pass").value;
+        var reg_pass2= document.getElementById("reg_pass2").value;
+        var reg_email= document.getElementById("reg_email").value;
+        var reg_email2= document.getElementById("reg_email2").value;
+        var reg_colegio= document.getElementById("reg_colegio").value;
+        var reg_colegio_rbd= document.getElementById("reg_colegio_rbd").value;
+        var selPerfil_reg= document.getElementById("selPerfil_reg").value;
+        
+        if(EliminaEspacios(reg_user)=="" || EliminaEspacios(reg_pass)=="" || EliminaEspacios(reg_pass2)=="" || EliminaEspacios(reg_email)=="" || EliminaEspacios(reg_email2)==""){
+            MensajeFormatoVariable("Debe ingresar todos los campos del formulario.","info","center");
+        }
+        else{
+            if(selPerfil_reg != "2" && (EliminaEspacios(reg_colegio)=="" || EliminaEspacios(reg_colegio_rbd)=="") ){
+                MensajeFormatoVariable("Debe ingresar todos los campos del formulario.","info","center");
+            }
+            else{
+                if(reg_pass!=reg_pass2){
+                     MensajeFormatoVariable("Los campos de contraseña deben ser idénticos.","info","center");
+                }
+                else{
+                    if(reg_email!=reg_email2 || !validarEmail(reg_email) || !validarEmail(reg_email2)){
+                        MensajeFormatoVariable("Los campos de correo electrónico deben ser idénticos y tener un formato válido.","info","center");
+                    }
+                    else{
+                        MensajeFormatoVariable("Gracias por registrase en GENIUX. Enviaremos un mensaje a su cuenta de correo para que valide el registro. Luego se solicitará su identificación completa para activar la cuenta.","success","center");
+                        document.getElementById("reg_user").value="";
+                        document.getElementById("reg_pass").value="";
+                        document.getElementById("reg_pass2").value="";
+                        document.getElementById("reg_email").value="";
+                        document.getElementById("reg_email2").value="";
+                        document.getElementById("reg_colegio").value="";
+                        document.getElementById("reg_colegio_rbd").value="";
+                        document.getElementById("selPerfil_reg").selectedIndex=0;
+                        CargaFormRegistro(2);
+                    }
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

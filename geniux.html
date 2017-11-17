@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title -->
+    <title>GENIUX | Plataforma educativa - powered by NativeCodex</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css" />
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/sweetalert2/sweetalert2.min.css" />
+    
+    <!-- App styles -->
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/helper.css" />
+    <link rel="stylesheet" href="styles/style.css?1968_v2">
+</head>
+<body class="landing-page">
+
+<!-- Simple splash screen-->
+    <div class="splash"> <div class="color-line"></div><div class="splash-title"><h1><span id="span_texto_splas1">GENIUX | Plataforma educacional - powered by NativeCodex</span></h1><p><span id="span_texto_splas2">SIMPLE, EFICIENTE y EFICAZ.</span></p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
+<!--[if lt IE 7]>
+<p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#page-top" class="navbar-brand page-scroll">Geniux</a>
+            <div class="brand-desc"></div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a class="page-scroll" href="#page-top"><span id="span_texto_menu1">Inicio</span></a></li>
+                <li><a class="page-scroll" href="#components"><span id="span_texto_menu2">M&oacute;dulos</span></a></li>
+                <li><a class="page-scroll" href="#features"><span id="span_texto_menu3">Caracter&iacute;sticas</span></a></li>
+                <li><a class="page-scroll" href="#team"><span id="span_texto_menu4">Equipo</span></a></li>
+                <li><a class="page-scroll" href="#clients"><span id="span_texto_menu5">Instituciones</span></a></li>
+                <li><a class="page-scroll" href="#contact"><span id="span_texto_menu6">Contacto</span></a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                        <i class="pe-7s-global" style="font-size:24px;color:#04B404;"></i>
+                    </a>
+                    <ul class="dropdown-menu hdropdown notification animated flipInX">
+                        <li onclick="SeleccionaLengua('spa');">
+                            <a>ESPA&Ntilde;OL</a>
+                        </li>
+                        <li onclick="SeleccionaLengua('eng');">
+                            <a>ENGLISH</a>
+                        </li>
+                        <li onclick="SeleccionaLengua('spa');">
+                            <a><span id="span_txt_label_other_language">OTROS</span></a>
+                        </li>
+                    </ul>
+                </li>                
+                <li><a onclick="Login();"><span id="span_texto_menu7">Ingreso Usuario</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+
+    
+    
+<header id="page-top">
+    <div class="container" >
+        <div class="heading" >
+            <img src="images/logo_base2.png" style="width:50%;" /><br />
+            <h2>    
+                <span id="span_text_banner1">Bienvenido a la plataforma educacional GENIUX</span>
+            </h2>
+            <span id="span_text_banner2">Entregamos a la comunidad educacional una nueva herramienta de evaluaci&oacute;n<br/>totalmente gratuita y basada en un modelo centrado en el progreso de la adquisición<br/>de habilidades de cada niño, te invitamos a conocernos.</span>
+            <br/><br/>
+            <h2 id="span_slogan_banner">POTENCIANDO TU GENIALIDAD</h2>
+            <!--<span style="font-size:11px;font-weight:normal;"></span><br/><a href="#" class="btn btn-success btn-sm">Aprenda m&aacute;s</a>-->
+        </div>
+        <div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
+            <p class="small"><span id="span_text_banner3">Simple, autoexplicativa, eficiente.</span></p>            
+            <img class="img-animate" src="images/landing/c2_v2.jpg">
+            <img class="img-animate" src="images/landing/c1_v2.jpg">
+            <br />
+            <img class="img-animate" src="images/landing/c3_v2.jpg">
+            <img class="img-animate" src="images/landing/c4_v2.jpg">
+            <!--
+            <br/>
+            
+            <img class="img-animate" src="images/landing/c5.jpg">
+            <img class="img-animate" src="images/landing/c6.jpg">
+            <img class="img-animate" src="images/landing/c7.jpg">
+            <img class="img-animate" src="images/landing/c8.jpg">
+            -->
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h4><span id="span_text_title_opc1">EXPERIENCIA DE USUARIO</span></h4>
+            <p>
+                <span id="span_text_msg_opc1">Dise&ntilde;ada para que el trabajo administrativo en las instituciones educacionales sea una labor f&aacute;cil y simple.<br/>Deseamos que GENIUX cumpla con las expectativas que todo usuario busca: simplicidad, eficiencia y eficacia.</span>
+            </p>
+            <p style="display: none;"><a class="navy-link btn btn-sm" href="#" role="button"><span id="span_post_logan_sec_1">Leer m&aacute;s</span></a></p>
+        </div>
+        <div class="col-md-4">
+            <h4><span id="span_text_title_opc2">C&Oacute;DIGO ABIERTO</span></h4>
+            <p>
+                <span id="span_text_msg_opc2">Cuando definimos GENIUX, todo el equipo estuvo de acuerdo en hacer de esta plataforma una iniciativa de c&oacute;digo abierto, la que permita el desarrollo de muchas mas herramientas que apoyen directamente la labor docente.</span>
+            </p>
+            <p style="display: none;"><a class="navy-link btn btn-sm" href="#" role="button"><span id="span_post_logan_sec_2">Leer m&aacute;s</span></a></p>
+        </div>
+        <div class="col-md-4">
+            <h4><span id="span_text_title_opc3">GLOBAL</span></h4>
+            <p>
+                <span id="span_text_msg_opc3">Somos una iniciativa de alcance GLOBAL, esperamos que la información de analisis que genere GENIUX sea<br/>compartida por toda la comunidad, permitiendo el desarrollo de investigación en esta area ...</span> <!--, como tambien, la mejora continua de esta herramienta y de todas las que se generen a partir de GENIUX.-->
+            </p>
+            <p style="display: none;"><a class="navy-link btn btn-sm" href="#" role="button"><span id="span_post_logan_sec_3">Leer m&aacute;s</span></a></p>
+        </div>
+        
+        <div class="col-md-12">
+            <hr />
+            <h4><span id="span_text_title_opc_4">LICENCIA DE CÓDIGO ABIERTO</span></h4><br />
+            <p>
+                <span id="span_text_msg_opc4">La licencia de código abierto está diseñada para que usted pueda usar Geniux para crear proyectos de código abierto y personales. La licencia de código abierto Geniux es CC BY-NC-SA 4.0 y GPLv3. La GPLv3 tiene muchos términos. De la GPL FAQ: <b>Si libera la versión modificada al público de alguna manera, la GPL requiere que usted haga el código fuente modificado disponible para los usuarios del programa, bajo la GPL</b>.<br />Liberar su proyecto que usa Geniux bajo licencias CC BY-NC-SA 4.0 y GPLv3, a su vez, requiere que su proyecto sea licenciado bajo CC BY-NC-SA 4.0 y GPLv3. Si está de acuerdo con esto, no dude en usar Geniux bajo CC BY-NC-SA 4.0 y GPLv3, sin necesidad de adquirir una licencia comercial, de lo contrario contacta a COGNOX para lograr el acuerdo de uso correspondiente.</span>
+            </p>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES"><img alt="Licencia de Creative Commons" style="border-width:0" src="images/by-nc-sa-88x31.png" /></a><a rel="license" href="https://www.gnu.org/licenses/quick-guide-gplv3.html"><img alt="Licencia Pública General GNU (GPLv3)"  style="width: 88px;" src="images/gpl3_003.png" /></a>
+        </div>
+    </div>        
+    </div>
+</section>
+
+<section id="components" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2><span class="text-primary-3"><span id="span_text_mod_menu1">M&Oacute;DULOS</span></span> GENIUX</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="row m-t-md">
+            <div class="col-md-6">
+                <h4 class="m-t-xxxl"><span id="span_tit_seccion_mod_1">Registro de usuario e Instituiones Educativas</span></h4>
+                <p>
+                    <span id="span_det_seccion_mod_1">En este m&oacute;dulo los usuarios se podr&aacute;n registrar para poder hacer uso de GENIUX. El registro es totalmente gratuito, nadie puede solicitarte un pago para acceder a usar esta plataforma.<br/>Tambi&eacute;n, podr&aacute;n suscribirse instituciones educativas, y en ellas sus docente tendr&aacute;n cuentas de usuario para registrar las evaluaciones de los alumnos que asistan a estas.</span>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/landing/s2.png" class="img-responsive">
+            </div>
+        </div>
+        <div class="row m-t-xl">
+            <div class="col-md-6">
+                <img src="images/landing/s4.png" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+                <h4 class="m-t-xxl"><span id="span_tit_seccion_mod_2">Estad&iacute;sticas</span></h4>
+                <p>
+                    <span id="span_det_seccion_mod_2">GENIUX tendr&aacute; disponible un conjunto de reportes estad&iacute;sticos que te ayudar&aacute;n a analizar los resultados de los datos registrados.</span>    
+                </p>
+            </div>
+        </div>
+        <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <h4 class="m-t-xxl"><span id="span_tit_seccion_mod_3">Registro de alumnos</span></h4>
+                <p>
+                    <span id="span_det_seccion_mod_3">A trav&eacute;s de este m&oacute;dulo, el usuario o instituciones suscritas a GENIUX podr&aacute; registrar al alumno o grupo de alumnos a los cuales desea evaluar con esta plataforma.<br/>En el caso de grupos de alumnos, se solicitar&aacute; indicar el colegio, curso y nivel de estos. Los datos entregados se mantendr&aacute;n bajo estricta confidencialidad. S&oacute;lo las estadísticas extra&iacute;das a partir de estos ser&aacute; de acceso p&uacute;blico.</span>    
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/landing/s1.png" class="img-responsive">
+            </div>
+        </div>
+        <div class="row m-t-xl">
+            <div class="col-md-6">
+                <img src="images/landing/s3.png" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+                <h4 class="m-t-xxl"><span id="span_tit_seccion_mod_4">M&oacute;dulo Administrativo</span></h4>
+                <p>
+                    <span id="span_det_seccion_mod_4_1">En este, se ingresan las configuraciones de &aacute;mbitos, n&uacute;cleos, mapas o ejes y sus indicadores para cada localizaci&oacute;n espec&iacute;fica de GENIUX. Para ello, Corporacion COGNOX, colaborar&aacute; para establecer lazos con organismos educacionales y docentes en cada pa&iacute;s para lograr esta ambiciosa meta: </span><span class="text-success"><span id="span_det_seccion_mod_4_2">GENIUX una plataforma de uso global, libre, colaborativa y de investigaci&oacute;n.</span></span>    
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h2><span class="text-primary-3"><span id="span_text_mod_menu2_1">Muchas caracter&iacute;sticas</span></span><span id="span_text_mod_menu2_2"> para descubrir en GENIUX</span></h2>
+                <p><span id="span_texto_caracteristicas"></span></p>
+            </div>
+        </div>
+        <div class="row m-t-lg">
+            <div class="col-md-4 col-md-offset-2">
+                <strong><span id="span_tit_mod_menu_2_1">Capacitaciones</span></strong>
+                <p>
+                    <span id="span_det_mod_menu_2_1">Necesitas conocer m&aacute;s a fondo GENIUX, sus caracter&iacute;sticas y alcances. Agenda capacitaciones con nuestro equipo de soporte. Te apoyaremos y acompa&ntilde;aremos en todo el proceso de adopci&oacute;n de esta nueva plataforma.</span>
+                </p>
+                <a class="btn btn-success btn-sm"><span id="span_btn_mod_menu_2_1">Leer m&aacute;s</span></a>
+            </div>
+            <div class="col-md-4">
+                <strong><span id="span_tit_mod_menu_2_2">Foros</span></strong>
+                <p>
+                    <span id="span_det_mod_menu_2_2">Ser colaborativo es parte integra de nuestro ADN, por ello, para difundir la investigaci&oacute;n y el tr&aacute;nsito libre de informaci&oacute;n en GENIUX, los foros de discusi&oacute;n abierta a la comunidad educativa suscrita, ser&aacute;n un m&eacute;todo a utilizar.</span>
+                </p>
+                <a class="btn btn-success btn-sm"><span id="span_btn_mod_menu_2_2">Leer m&aacute;s</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+  
+<section id="team" class="bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+                <h2><span class="text-primary-3"><span id="span_titulo_equipo1">Nuestro equipo </span></span><span id="span_titulo_equipo2">te apoyar&aacute;</span></h2>
+                <p>
+                    <span id="span_mensaje_equipo">Un equipo de profesionales y especialistas en el area educativa estar&aacute; disponible para todas tus consultas.</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="row m-t-lg text-center">
+            <div class="col-sm-4-v2">
+                <div class="team-member">
+                    <img src="images/marjoriecaceres2.jpg" class="img-circle" alt="">
+                    <h4><span>Majorie</span> C&aacute;ceres</h4>
+                    <p><a href="mailto:majoriecaceres@cognox.org" target="_top">majoriecaceres@cognox.org</a></p>
+
+                </div>
+            </div>            
+            <div class="col-sm-4-v2">
+                <div class="team-member">
+                    <img src="images/rodrigofierro2.jpg" class="img-circle" alt="">
+                    <h4><span>Rodrigo</span> Fierro</h4>
+                    <p><a href="mailto:rodrigofierro@cognox.org" target="_top">rodrigofierro@cognox.org</a></p>
+
+                </div>
+            </div>
+            <div class="col-sm-4-v2">
+                <div class="team-member">
+                    <img src="images/josecortes2.jpg" class="img-circle" alt="">
+                    <h4><span>Jos&eacute;</span> Cort&eacute;s</h4>
+                    <p><a href="mailto:josecortes@cognox.org" target="_top">josecortes@cognox.org</a></p>
+
+                </div>
+            </div>
+            <div class="col-sm-4-v2">
+                <div class="team-member">
+                    <img src="images/ivan2.jpg" class="img-circle" alt="">
+                    <h4><span>Ivan</span> Saldivar</h4>
+                    <p><a href="mailto:ivansaldivar@cognox.org" target="_top">ivansaldivar@cognox.org</a></p>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<section id="clients">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+                <h2><span class="text-primary-3"><span id="span_titulo_proyeduca1">Los proyectos educativos</span></span><span id="span_titulo_proyeduca2"> que conf&iacute;an en nosotros.</span></h2>
+                <p>
+                    <span id="span_mensaje_proyeduca">Pronto desplegaremos aquellos proyectos educativos que est&aacute;n usando GENIUX, si ellos nos autorizan, podr&aacute;s saber de primera mano la experiencia de ellos con la plataforma.</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="row text-center m-t-lg">
+            <div class="col-md-6 col-md-offset-3">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="client">Project logo</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="client">Project logo</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="client">Project logo</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="client">Project logo</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="client">Project logo</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="client">Project logo</div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+<section id="contact" class="bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+                <h2><span class="text-primary-3"><span id="span_titulo_contacto1">Cont&aacute;ctanos</span></span><span id="span_titulo_contacto2"> cuando lo necesites</span></h2>
+                <p>
+                    <span id="span_mensaje_contacto">Estamos disponibles para que te comuniques con nosotros cuando lo desees. Queremos que formes parte de nuestra comunidad, mientras m&aacute;s experiencias e investigaciones compartamos en torno GENIUX, haremos de esta herramienta una plataforma de mayor calidad para todos.<br/>GENIUX nace para ser colaborativo, global y respetuoso de la identidad e idiosincracia propia de cada pueblo.</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="row text-center m-t-lg">
+            <div class="col-md-4 col-md-offset-3">
+
+                <form class="form-horizontal" role="form" method="post" action="#">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label"><span id="span_txt_contact_name">Nombre</span></label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre completo" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label"><span id="span_txt_contact_email">Email</span></label>
+
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="user@example.com" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label"><span id="span_txt_contact_msg">Mensaje</span></label>
+
+                        <div class="col-sm-10">
+                            <textarea  class="form-control" rows="3" id="message" name="message"  placeholder="Tu mensaje aqu&iacute;..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label"></label>
+
+                        <div class="col-sm-10">
+                            <input  id="submit1_portal" name="submit1_portal" value="Envi&aacute;nos un mensaje" class="btn btn-success" style="display:block">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-3 text-left">
+                <address>
+                    <strong><span class="navy">Corporaci&oacute;n COGNOX.</span></strong><br/>
+                    Pasaje Geminis 0158<br/>
+                    Puente Alto, 
+                    Santiago, Chile<br/>
+                    CP 8220766
+                    <abbr title="Fono">P:</abbr> (56) 2 2932-1997
+                </address>
+                <p class="text-color"></p>
+            </div>
+        </div>
+
+    </div>
+</section>
+    
+<section id="clients">
+    <div class="container">
+        <div id="copyright">
+            <ul>
+                <li><table><tr><td><span class="cc">c</span>&nbsp;</td><td><a href="https://cognox.org">Corporaci&oacute;n COGNOX LTDA.</a></td></tr></table></li>
+                <li><table><tr><td><span class="cc" style="color: #FFF;">c</span></td><td style="vertical-align:inherit;">powered by: <a href="https://nativecodex.com">NativeCodex</a></td></tr></table></li>
+            </ul>
+            <p style="font-size:10px;">
+            <span id="spanLic_CC_01">Excepto cuando se indique lo contrario, el contenido y código de esta aplicación están bajo dos licencias de uso: </span><span id="spanLic_CC_02"><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES">una licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a></span><span id="spanLic_CC_02_1"> y una </span><a href="https://www.gnu.org/licenses/quick-guide-gplv3.html"><span id="spanLic_CC_02_2">Licencia Pública General GNU (GPLv3)</span></a>.
+            </p>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES"><img alt="Licencia de Creative Commons" style="border-width:0" src="images/by-nc-sa-88x31.png" /></a>
+        </div>    
+        <div id="copyright2">
+            <ul>
+                <table>
+                    <tr><td><span class="cc">c</span>&nbsp;</td><td><a href="https://cognox.org">Corporaci&oacute;n COGNOX LTDA.</a></td></tr>
+                    <tr><td style="vertical-align:inherit;" colspan="2">powered by: <a href="https://nativecodex.com">NativeCodex</a></td></tr>
+                </table>
+            </ul>
+
+            <p style="font-size:10px;">
+                <span id="spanLic_CC_03">Excepto cuando se indique lo contrario, el contenido y código de esta aplicación están bajo dos licencias de uso: </span><span id="spanLic_CC_04"><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES">una licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a></span><span id="spanLic_CC_04_1"> y una </span><a href="https://www.gnu.org/licenses/quick-guide-gplv3.html"><span id="spanLic_CC_04_2">Licencia Pública General GNU (GPLv3)</span></a>.
+            </p>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES"><img alt="Licencia de Creative Commons" style="border-width:0" src="images/by-nc-sa-88x31.png" /></a><br />
+        </div>
+        <div id="copyright3">
+            <a rel="license" href="https://www.gnu.org/licenses/quick-guide-gplv3.html"><img alt="Licencia Pública General GNU (GPLv3)"  style="width: 88px;" src="images/gpl3_003.png" /></a>
+        </div>          
+    </div>
+</section>
+    
+<!-- Vendor scripts -->
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="vendor/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
+<script src="vendor/iCheck/icheck.min.js"></script>
+<script src="vendor/sparkline/index.js"></script>
+<script src="vendor/sweetalert2/sweetalert2.min.js"></script>
+
+<!-- App scripts -->
+<script src="scripts/homer.js"></script>
+<script src="scripts/geniux.js?1968_v4"></script>
+<script src="scripts/geniuxn.js?1968_v4"></script>
+    
+<!-- Local script for menu handle -->
+<!-- It can be also directive -->
+<script>
+$(document).ready(function () {
+    var lang = "spa";
+    var ac2 = "CL";
+    // Page scrolling feature
+    $('a.page-scroll').bind('click', function(event) {
+        var link = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(link.attr('href')).offset().top - 50
+        }, 500);
+        event.preventDefault();
+    });
+
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 80
+    });
+
+    lang = getParameterByName("lang");
+    ac2 = getParameterByName("ac2");
+    
+    if(lang=="") lang="spa";
+    document.getElementById("language_identificator").value=lang;
+
+    if(ac2=="") ac2="CL";
+    document.getElementById("alpha_code2_pais_x_ip").value=ac2;
+    
+    if(lang!="spa") 
+        SeleccionaLengua(lang);
+    else
+        RecargaLocalizacion();
+});
+</script>
+<form>
+    <input type="hidden" id="language_identificator" value="spa"/>    
+    <input type="hidden" id="fromCall" value="portal"/>    
+    <input type="hidden" id="datosmensaje" value=""/>
+    <input type="hidden" id="pais_x_ip" />
+    <input type="hidden" id="alpha_code2_pais_x_ip" />      
+</form>
+</body>
+</html>
