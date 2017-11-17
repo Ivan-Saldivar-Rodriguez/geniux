@@ -1,0 +1,2 @@
+CREATE SCHEMA `geniux_loadbalance_db` DEFAULT CHARACTER SET utf8 ;
+CREATE SCHEMA `geniux_db` DEFAULT CHARACTER SET utf8 ;
