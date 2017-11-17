@@ -1,0 +1,196 @@
+////////////////////////////
+--PORTAL
+----------------------------
+
+----------------------------
+--SPAN ==> attribute: innerHTML
+
+span_titulo_equipo1=>"Nuestro equipo "
+span_titulo_equipo2=>"te apoyar&aacute;"
+span_mensaje_equipo=>"Un equipo de profesionales y especialistas en el area educativa estar&aacute; disponible para todas tus consultas."
+span_titulo_proyeduca1=>"Los proyectos educativos"
+span_titulo_proyeduca2=>" que conf&iacute;an en nosotros."
+span_mensaje_proyeduca=>"Pronto desplegaremos aquellos proyectos educativos que est&aacute;n usando GENIUX, si ellos nos autorizan, podr&aacute;s saber de primera mano la experiencia de ellos con la plataforma."
+span_titulo_contacto1=>"Cont&aacute;ctanos"
+span_titulo_contacto2=>" lo necesites"
+span_mensaje_contacto=>"Estamos disponibles para que te comuniques con nosotros cuando lo desees. Queremos que formes parte de nuestra comunidad, mientras m&aacute;s experiencias e investigaciones compartamos en torno GENIUX, haremos de esta herramienta una plataforma de mayor calidad para todos.<br/>GENIUX nace para ser colaborativo, global y respetuoso de la identidad e idiosincracia propia de cada pueblo."
+span_txt_contact_name=>"Nombre"
+span_txt_contact_email=>"Email"
+span_txt_contact_msg=>"Mensaje"
+span_texto_splas1=>"GENIUX | Plataforma educacional - powered by NativeCodex"
+span_texto_splas2=>"SIMPLE, EFICIENTE y EFICAZ."
+span_texto_menu1=>"Inicio"
+span_texto_menu2=>"M&oacute;dulos"
+span_texto_menu3=>"Caracter&iacute;sticas"
+span_texto_menu4=>"Equipo"
+span_texto_menu5=>"Instituciones"
+span_texto_menu6=>"Contacto"
+span_texto_menu7=>"Ingreso Usuario"
+span_text_banner1=>"Bienvenido a la plataforma educacional GENIUX"
+span_text_banner2=>"Entregamos a la comunidad educacional una nueva herramienta de evaluaci&oacute;n<br/>totalmente gratuita y basada en un modelo centrado en el progreso de la adquisición<br/>de habilidades de cada niño, te invitamos a conocernos."
+span_text_banner3=>"Simple, autoexplicativa, eficiente."
+span_text_title_opc1=>"EXPERIENCIA DE USUARIO"
+span_text_title_opc2=>"OPEN SOURCE"
+span_text_title_opc3=>"GLOBAL"
+span_text_msg_opc1=>"Dise&ntilde;ada para que el trabajo administrativo en las instituciones educacionales sea una labor f&aacute;cil y simple.<br/>Deseamos que GENIUX cumpla con las expectativas que todo usuario busca: simplicidad, eficiencia y eficacia."
+span_text_msg_opc2=>"Cuando definimos GENIUX, todo el equipo estuvo de acuerdo en hacer de esta plataforma una iniciativa de c&oacute;digo abierto, la que permita el desarrollo de muchas mas herramientas que apoyen directamente la labor docente."
+span_text_msg_opc3=>"Somos una iniciativa de alcance GLOBAL, esperamos que la información de analisis que genere GENIUX sea<br/>compartida por toda la comunidad, permitiendo el desarrollo de investigación en esta area ..."
+span_text_mod_menu1=>"M&Oacute;DULOS"
+span_text_mod_menu2_1=>"Muchas caracter&iacute;sticas"
+span_text_mod_menu2_2=>" para descubrir en GENIUX"
+span_tit_seccion_mod_1=>"Registro de usuario e Instituiones Educativas"
+span_det_seccion_mod_1=>"En este m&oacute;dulo los usuarios se podr&aacute;n registrar para poder hacer uso de GENIUX. El registro es totalmente gratuito, nadie puede solicitarte un pago para acceder a usar esta plataforma.<br/>Tambi&eacute;n, podr&aacute;n suscribirse instituciones educativas, y en ellas sus docente tendr&aacute;n cuentas de usuario para registrar las evaluaciones de los alumnos que asistan a estas."
+span_tit_seccion_mod_2=>"Estad&iacute;sticas"
+span_det_seccion_mod_2=>"GENIUX tendr&aacute; disponible un conjunto de reportes estad&iacute;sticos que te ayudar&aacute;n a analizar los resultados de los datos registrados."
+span_tit_seccion_mod_3=>"Registro de alumnos"
+span_det_seccion_mod_3=>"A trav&eacute;s de este m&oacute;dulo, el usuario o instituciones suscritas a GENIUX podr&aacute; registrar al alumno o grupo de alumnos a los cuales desea evaluar con esta plataforma.<br/>En el caso de grupos de alumnos, se solicitar&aacute; indicar el colegio, curso y nivel de estos. Los datos entregados se mantendr&aacute;n bajo estricta confidencialidad. S&oacute;lo las estadísticas extra&iacute;das a partir de estos ser&aacute; de acceso p&uacute;blico."
+span_tit_seccion_mod_4=>"M&oacute;dulo Administrativo"
+span_det_seccion_mod_4_1=>"En este, se ingresan las configuraciones de &aacute;mbitos, n&uacute;cleos, mapas o ejes y sus indicadores para cada localizaci&oacute;n espec&iacute;fica de GENIUX. Para ello, Corporacion COGNOX, colaborar&aacute; para establecer lazos con organismos educacionales y docentes en cada pa&iacute;s para lograr esta ambiciosa meta: "
+span_det_seccion_mod_4_2=>"GENIUX una plataforma de uso global, libre, colaborativa y de investigaci&oacute;n."
+span_tit_mod_menu_2_1=>"Capacitaciones"
+span_det_mod_menu_2_1=>"Necesitas conocer m&aacute;s a fondo GENIUX, sus caracter&iacute;sticas y alcances. Agenda capacitaciones con nuestro equipo de soporte. Te apoyaremos y acompa&ntilde;aremos en todo el proceso de adopci&oacute;n de esta nueva plataforma."
+span_tit_mod_menu_2_2=>"Foros"
+span_det_mod_menu_2_2=>"Ser colaborativo es parte integra de nuestro ADN, por ello, para difundir la investigaci&oacute;n y el tr&aacute;nsito libre de informaci&oacute;n en GENIUX, los foros de discusi&oacute;n abierta a la comunidad educativa suscrita, ser&aacute;n un m&eacute;todo a utilizar."
+span_btn_mod_menu_2_1=>"Leer m&aacute;s"
+span_btn_mod_menu_2_2=>"Leer m&aacute;s"
+span_txt_label_other_language=>"OTROS"
+
+----------------------------
+--OBJECT ==> attribute: value
+submit1=>"Enviar mensaje" 
+
+----------------------------
+--DOCUMENT ATTRIBUTE ==> attribute: variable
+span_title_page=>"GENIUX | Plataforma educacional - powered by NativeCodex" ==> attribute: title
+
+
+////////////////////////////
+--LOGIN
+----------------------------
+
+span_saludo_login_ingreso=>POR FAVOR INGRESE
+span_name_usuario_login=>Nombre de usuario
+span_txt_name_usuario_login=>Su nombre de usuario &uacute;nico para Geniux
+span_pass_usuario_login=>Contrase&ntilde;a
+span_txt_pass_usuario_login=>Su contrase&ntilde;a
+span_button_login_ingreso=>Ingresar
+span_button_volver=>Volver al portal
+
+span_txt_link_registro=>REGISTRARSE
+span_txt_newsletter=>Suscríbete a nuestro boletín =>Sign up for our newsletter
+span_txt_login_cab_registro=>REGISTRO DE USUARIO
+
+span_txt_username_registro=>Nombre de usuario =>Username
+span_txt_repeat_email_registro=>Repita Dirección de correo =>Repeat Email Address
+span_txt_email_registro=>Dirección de correo => Email Address
+span_txt_repeat_pass_registro=>Repita contrase&ntilde;a =>Repeat Password
+span_txt_password_registro=>Contrase&ntilde;a =>Password
+
+////////////////////////////
+--PANEL INICIAL
+----------------------------
+span_txt_tit_splash_administrator=>GENIUX | Plataforma educacional - powered by NativeCodex
+span_txt_slogan_splash=>SIMPLE, EFICIENTE y EFICAZ.
+input_search_administrator=>B&uacute;squedas... (placeholder)
+span_txt_menu_perfil_close=>Cerrar sesi&oacute;n
+span_txt_menu_perfil_config=>Perfil
+span_txt_panel_ini_gls=>Plataforma educacional - powered by NativeCodex
+span_txt_panel_ini_slogan=>SIMPLE, EFICIENTE y EFICAZ.
+
+
+////////////////////////////
+--ADMINISTRADOR
+----------------------------
+
+//EDITAR MAPA
+span_menu_perfil_1=>Contactos
+span_menu_perfil_2=>Perfil
+span_menu_perfil_3=>Estad&iacute;sticas
+span_menu_perfil_4=>Cerrar sesi&oacute;n
+
+span_menu_mod_config=>CONFIGURACIÓN
+span_menu_mod_config_1=>Idioma/Lengua
+span_menu_mod_config_2=>Perfiles
+span_menu_mod_config_3=>Instituciones
+span_menu_mod_config_4=>Usuarios
+
+span_menu_mod_mapa=>MAPAS DE PROGRESO
+span_menu_mod_mapa_1=>Crear mapa
+span_menu_mod_mapa_2=>Editar mapa
+
+span_menu_mod_soporte=>SOPORTE
+span_menu_mod_estadistica=>ESTAD&Iacute;STICAS
+
+span_txt_path_modulo_1=>Mapa de progreso
+span_txt_path_modulo_2=>Editar mapa
+span_txt_cab_modulo_mapa_progreso=>MAPAS DE PROGRESO
+span_txt_det_modulo_mapa_progreso=>Configuración de mapas de progreso para evaluaciones
+
+span_txt_cab_general_config=>CONFIGURACIÓN BASE
+span_txt_cab_ambito_config=>ÁMBITOS DE EXPERIENCIA
+span_txt_cab_nucleo_config=>NÚCLEOS DE APRENDIZAJE
+span_txt_cab_eje_config=>MAPAS DE PROGRESO DEL APRENDIZAJE
+span_txt_cab_indicador_config=>"INDICADORES DE DESEMPE&Ntilde;O"
+span_txt_cab_lista_config=>"LISTADO DE MAPAS CONFIGURADOS"
+span_txt_det_lista_config=>"Para editar uno haz clic sobre el. Recuerda que si el mapa ya fue utilizado no se puede modificar."
+span_txt_gls_seccion_gral_mapa1=>"Si desea editar la estructura del mapa de progreso seleccione "
+span_txt_gls_seccion_gral_mapa2=>"Editar Mapa"
+
+span_txt_gls_seccion_ambito_mapa_1=>"Para revisar y editar ámbitos de aprendizaje, primero debe seleccionar una configuración base en la sección anterior. Para ver los núcleos de un ámbito haz clic en "
+span_txt_gls_seccion_ambito_mapa_2=>"Editar ámbito"
+span_txt_gls_seccion_nucleo_mapa_1=>"Para revisar y editar núcleos de aprendizaje, primero debe seleccionar un ámbito en la sección anterior. Para ver los mapas de un núcleo, haz clic en "
+span_txt_gls_seccion_nucleo_mapa_2=>"Editar Núcleo"
+span_txt_gls_seccion_mapa_aprendizaje_1=>"Para revisar y editar mapas de aprendizaje, primero debe seleccionar un núcleo en la sección anterior. Para ver los indicadores de desempeño de un mapa, haz clic en "
+span_txt_gls_seccion_mapa_aprendizaje_2=>Editar mapa
+span_txt_gls_seccion_indicador_mapa">Para revisar y editar indicadores de desempeño, primero debe seleccionar un mapa en la sección anterior.
+span_txt_btn_agregar_config_new= "AGREGAR CONFIGURACIÓN"
+span_txt_cab_nueva_configMapa = "NUEVA CONFIGURACIÓN DE MAPA DE PROGRESO"
+span_txt_scope_config_mapa = "USO GLOBAL"
+span_txt_glosa_estado_config_mapa = "PENDIENTE" o "EDITABLE"
+span_txt_desc_year_country_origin_config_mapa = "Año / País"
+span_txt_insitucion_origen_config_mapa= "Institución"
+span_txt_nivel_logro_config_mapa ="Nivel de Logro"
+span_txt_btn_cancelar_nuevo_config_mapa= CANCELAR
+span_txt_btn_guardar_nuevo_config_mapa= GUARDAR CAMBIOS
+
+span_txt_cab_grupo_indicadores_xrango=>NUEVO GRUPO DE INDICADORES POR RANGO DE NIVEL DE LOGRO
+span_txt_cantidad_indicadores_Xrangos_x_new=>"0 indicadores de desempeño"
+span_txt_desc_tbl_indicadores_xrango=>Indicadores del rango
+
+span_txt_btn_cancelar_grp_indicador_xrango_new=>CANCELAR
+span_txt_btn_agregar_indicador_xrango_new=>AGREGAR INDICADOR
+span_txt_btn_guardar_indicador_xrango_new=>GUARDAR CAMBIOS
+span_txt_sel_rango_xnivel_logro_new=>TRAMO DE NIVEL DE LOGRO
+
+span_txt_btn_cancelar_config_mapa= VOLVER
+span_txt_btn_crer_nuevo_config_mapa_ambito= CREAR ÁMBITO NUEVO
+
+span_txt_btn_cancelar_config_mapa_nucleo= VOLVER
+span_txt_btn_crer_nuevo_config_mapa_nucleo= CREAR NÚCLEO NUEVO
+
+span_txt_btn_cancelar_config_mapa_eje= VOLVER
+span_txt_btn_crer_nuevo_config_mapa_eje= CREAR NUEVO MAPA / EJE
+
+span_txt_btn_cancelar_config_indicador= VOLVER
+span_txt_btn_crer_nuevo_config_grupo_indicador= CREAR GRUPO INDICADORES POR TRAMO DE NIVEL DE LOGRO
+
+//NIVEL LOGROS
+span_txt_cab_general_nivel_logro=>CONFIGURACIÓN DE NIVELES DE LOGRO
+span_txt_cab_lista_nivel_logro=>LISTADO DE NIVELES DE LOGRO
+span_txt_det_lista_nivel logro=>Para editar uno haz clic sobre el. Recuerda que si el nivel de logro ya fue utilizado no se puede modificar o eliminar.
+span_txt_btn_agregar_grupo_nivel-logro=>Agregar configuración de nivel logro
+span_txt_scope_nivel_logro=>Público
+span_txt_desc_nivel_logro_new=>Descripción
+span_txt_desc_year_country_origin=>"Año / País"
+span_txt_insitucion_origen_nivel_logro=>Institución
+span_txt_btn_guardar_nuevo_nivel_logro=>Guardar cambios
+span_txt_btn_agregar_rangoedad_nivel_logro=>Agregar rango de edad
+span_txt_nombrerango_nivel_logro=>Nombre rango
+span_txt_descrango_nivel_logro=>Descripción rango
+span_txt_btn_guardar_rangoedad_nivel_logro=>Guardar rango de edad
+span_txt_btn_cancelar_rangoedad_nivel_logro=>Cerrar
+span_txt_cab_nuevo_rango=>Nueva configuración de nivel de logro
+span_txt_btn_cancelar_nuevo_nivel_logro=>Cancelar
+span_txt_cantidad_rangos_x_grupo=>N tramos de edad
+span_text_hasta_rango=>HASTA
+span_text_desde_rango=>DESDE
