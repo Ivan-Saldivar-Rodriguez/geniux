@@ -40,11 +40,11 @@ class ConectionDB {
 	/*
 	static $servername = "TOLKIEN";
 	static $username = "sageniux";
-	static $password = "tribal1968openVoyager1979#$%**";
+	static $password = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 	static $DB = "geniux_db";
     $conexionPDO = "mysql:host=TOLKIEN;dbname=geniux_db";
     $usernamePDO = "sageniux";
-    $passwordPDO = "tribal1968openVoyager1979#$%**";
+    $passwordPDO = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 	*/
 
 	///////////////////////////////////////////////////////
